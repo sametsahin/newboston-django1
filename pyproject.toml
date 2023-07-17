@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "newboston-django1"
+version = "0.1.0"
+description = ""
+authors = ["Samet Sahin <sametsahinx@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "newboston_django1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.3"
+djangorestframework = "^3.14.0"
+psycopg2 = "^2.9.6"
+django-filter = "^23.2"
+django-split-settings = "^1.2.0"
+pyyaml = "^6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
